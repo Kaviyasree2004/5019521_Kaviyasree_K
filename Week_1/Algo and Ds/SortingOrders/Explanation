@@ -1,0 +1,32 @@
+Bubble Sort
+Time Complexity: O(n^2) in the average and worst-case scenarios. O(n) in the best case when the list is already sorted.
+Space Complexity: O(1) because it is an in-place sorting algorithm.
+
+Insertion Sort
+Time Complexity: O(n^2) in the average and worst-case scenarios. O(n) in the best case when the list is already sorted.
+Space Complexity: O(1) because it is an in-place sorting algorithm.
+
+Quick Sort
+Time Complexity: O(n log n) on average and O(n^2) in the worst case.
+Space Complexity: O(log n) due to recursive stack space.
+
+Merge Sort
+Time Complexity: O(n log n) in all cases.
+Space Complexity: O(n) because it requires additional space for merging.
+
+Analysis
+
+Bubble Sort:
+Best Case: O(n) when the array is already sorted.
+Average Case: O(n^2) due to the nested loops.
+Worst Case: O(n^2) when the array is sorted in reverse order.
+
+Quick Sort:
+Best Case: O(n log n) when the pivot divides the array into two equal parts.
+Average Case: O(n log n) due to the divide-and-conquer strategy.
+Worst Case: O(n^2) when the pivot is the smallest or largest element repeatedl.
+
+Why Quick Sort is Generally Preferred Over Bubble Sort
+
+Efficiency: Quick Sort is significantly faster on average due to its O(n log n) time complexity compared to Bubble Sort's O(n^2) time complexity.
+Scalability: Quick Sort handles larger datasets more efficiently.

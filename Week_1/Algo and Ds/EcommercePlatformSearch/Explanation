@@ -1,0 +1,24 @@
+Big O Notation
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+
+Analysis
+
+Linear Search:
+
+Best Case: O(1) (when the target is the first element).
+Average Case: O(n) (when the target is somewhere in the middle).
+Worst Case: O(n) (when the target is the last element or not present)
+
+Binary Search:
+
+Best Case: O(1) (when the target is the middle element).
+Average Case: O(log n) (due to the halving of the search space).
+Worst Case: O(log n) (when the target is at the end of the search).
+
+Suitable Algorithm for the Platform:
+Binary Search: More suitable for the platform if the product list is sorted. It provides faster search times (O(log n)) compared to linear search (O(n)), making it ideal for large datasets.
+Linear Search: Can be used if the dataset is small or if the list is unsorted, as it does not require preprocessing (sorting).

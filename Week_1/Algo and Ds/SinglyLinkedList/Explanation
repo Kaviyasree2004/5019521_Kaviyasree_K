@@ -1,0 +1,24 @@
+Types of Linked Lists
+
+Singly Linked List: Each node contains data and a reference to the next node. The last node points to null.
+Doubly Linked List: Each node contains data, a reference to the next node, and a reference to the previous node.
+
+Analysis
+
+Time Complexity of Each Operation
+
+Add: O(n) - Adding a task requires traversing to the end of the list.
+Search: O(n) - Searching for a task requires traversing the list until the task is found.
+Traverse: O(n) - Traversing the list involves visiting each node.
+Delete: O(n) - Deleting a task involves traversing the list to find the task and update the links.
+
+Advantages of Linked Lists Over Arrays for Dynamic Data
+Dynamic Size
+Efficient Insertions/Deletions
+Memory Usage
+
+When to Use Linked Lists:
+
+Dynamic Data
+Insertions/Deletions
+Non-contiguous Memory

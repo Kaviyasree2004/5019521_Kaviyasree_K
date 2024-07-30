@@ -1,0 +1,32 @@
+
+Linear Search
+Linear search is a straightforward search algorithm where each element in the list is checked sequentially until the desired element is found or the list is exhausted.
+
+Binary Search
+Binary search is an efficient search algorithm that works on sorted lists. It repeatedly divides the search interval in half. If the value of the search key is less than the middle element, it narrows the interval to the lower half; otherwise, it narrows it to the upper half.
+
+Analysis:
+
+Linear Search:
+
+Best Case: O(1) - The desired book is the first one in the list.
+Average Case: O(n) - The desired book is somewhere in the middle.
+Worst Case: O(n) - The desired book is the last one or not in the list.
+
+Binary Search:
+
+Best Case: O(1) - The desired book is the middle one.
+Average Case: O(log n) - The desired book is found after log n comparisons.
+Worst Case: O(log n) - The desired book is the last one checked or not in the list.
+
+When to Use Each Algorithm:
+
+Linear Search:
+Unsorted Data
+Small Data Sets
+Occasional Searches
+
+Binary Search:
+Sorted Data
+Large Data Sets
+Frequent Searches

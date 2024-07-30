@@ -1,0 +1,23 @@
+Why Data Structures and Algorithms Are Essential in Handling Large Inventories:
+
+1)Fast Retrieval
+2)Efficient Updates
+3)Scalability
+4)Memory Management
+
+Types of Data Structures Suitable for This Problem:
+ArrayList
+HashMap
+TreeMap
+LinkedList
+
+Analysis:
+
+Time Complexity Analysis:
+
+-->Add Product: The time complexity for adding a product using HashMap is O(1) on average because it uses a hash function to determine the index.
+-->Update Product: The time complexity for updating a product is O(1) on average since it involves accessing the HashMap and updating the value.
+-->Delete Product: The time complexity for deleting a product is O(1) on average as it involves removing the entry from the HashMap.
+
+Optimization Discussion
+Optimize Hash Function: Ensure the hash function used by the HashMap distributes keys uniformly to avoid collisions.

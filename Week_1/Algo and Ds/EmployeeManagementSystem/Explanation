@@ -1,0 +1,22 @@
+How Arrays are Represented in Memory
+Arrays are a collection of elements, each identified by an array index or key. They are stored in contiguous memory locations, which means that each element is positioned next to its neighbors. This allows for efficient indexing and access.
+
+Advantages of Arrays
+Direct Access: Allows O(1) time complexity for accessing any element using its index.
+Memory Efficiency: Memory is allocated once, which can be more efficient than multiple memory allocations.
+
+Analysis
+
+Add: O(1) - Adding an employee to the array is a constant time operation.
+Search: O(n) - Searching for an employee by ID requires scanning through the array.
+Traverse: O(n) - Traversing the array requires visiting each element once.
+Delete: O(n) - Deleting an employee involves shifting elements, which requires scanning through the array.
+
+Limitations:
+1)Fixed Size 
+2)Inefficient 
+3)Wasted Space
+
+When to Use Arrays:
+Static Data 
+Fast Access

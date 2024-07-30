@@ -1,0 +1,15 @@
+Concept of Recursion:
+
+Recursion is a method of solving problems where a function calls itself as a subroutine. This allows the function to be repeated several times as it breaks the problem into smaller, more manageable problems.
+
+Base Case: The condition under which the recursive function stops calling itself.
+Recursive Case: The part of the function where it calls itself with modified arguments.
+
+Analysis:
+
+Time Complexity of the Recursive Algorithm
+The time complexity of the recursive algorithm is O(n), where n is the number of periods. This is because the function makes one recursive call per period until the base case is reached.
+
+Optimizing the Recursive Solution:
+
+While the current solution is simple, recursion can be inefficient for large numbers of periods due to the overhead of multiple function calls and potential stack overflow issues. To optimize the recursive solution, we can use memoization or convert the algorithm into an iterative approach.
